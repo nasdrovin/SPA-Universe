@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background: url('./assets/mountains-universe.png') no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.hide {
+    display: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    padding: 4rem 0 0 7.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsla(240, 7%, 78%, 1);
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+}
+
+nav a:hover {
+    color: #FFF;
+}
+
+/* HOME */
+
+#home {
+    height: 80vh;
+    display: grid;
+    place-content: center;
+}
+
+#home h1 {
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 6rem;
+}
+
+#home button {
+    background: transparent;
+    width: 19.5rem;
+    height: 4.8rem;
+    margin: 2.4rem auto;
+    padding: 1.2rem 3.2rem;
+    border-radius: .5rem;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#home button:hover {
+    background: #FFF;
+    color: #02799D;
+}
+
+/* Universo e Exploração */
+
+#universe, #explorer, #erro {
+    margin: 6.3rem 0 0 10.2rem;
+}
+
+#universe h1, #explorer h1, #erro {
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 6rem;
+}
+
+#universe p, #explorer p {
+    color:#E1E1E6;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.9rem;
+    width: 64.8rem;
+    margin-top: 1.6rem;
+}
+
+/* Exploração e Universo BG */
+
+.explorer {
+    background: url('/assets/mountains-universe-3.png') no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.universe {
+    background: url('/assets/mountains-universe-2.png') no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
